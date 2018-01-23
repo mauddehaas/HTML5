@@ -1,0 +1,61 @@
+body {
+    font-family: 'Abel', SansSerif, serif;
+    font-size: medium;
+    min-height: 100%;
+    height: auto;
+    background-image: url("../img/orangesparkle.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto;
+}
+
+/*Header-toolbar Homepage mag op ander formaat. afgesproken op 30/10/2017 */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-image: url("../img/orangesparkle-v2.jpg");
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/*COLUMN*/
+#intro {
+    color: white; background-color: gray; }
+
+
+
+.footer {
+    background-color: darkgrey;
+    color: white;
+    height: 160px;
+    padding-left: 30px;
+}
+
+
+.sitelinks a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}

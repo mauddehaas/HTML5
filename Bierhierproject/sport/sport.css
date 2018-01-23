@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    background-image: url("img/Achtergrond Sport.jpg");
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+h1 {
+    padding:10px;
+}
+img {
+    padding: 5px;
+    width: 30%;
+    height: 150px;
+}
+main {
+    float: left;
+    width: 50%;
+}
+div.art {
+    padding-right: 4%;
+    float: right;
+    width: 45%;
+    padding-top: 110px;
+}
+div.art1 {
+    float: left;
+    width:30%;
+    padding-left: 30px;
+}
+div.art2 {
+    float: right;
+    width: 30%;
+    padding-right: 30px;
+}
+footer{
+    bottom: 0;
+    height: 130px;
+    width: 100%;
+    clear: both;
+    padding: 15px;
+    background-color: grey;
+    color: white;
+}
+
+.sitelinks a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}

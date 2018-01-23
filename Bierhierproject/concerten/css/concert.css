@@ -1,0 +1,131 @@
+
+body{
+    font-family: 'Abel', SansSerif, serif; font-size: medium;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 80px;
+
+    background-image: url("../imgconcert/Achtergrond Concerten.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Concerten{
+    font-size:40px ;
+    margin-top: 20px;
+    float: right;
+    margin-right: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("../imgconcert/Achtergrond Concerten.jpg") ;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.overzicht {
+    float: left;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.overzicht table, th, td {
+    border: 1px solid black;
+}
+
+.overzicht table th{
+    background-color: lightgreen;
+}
+.overzicht table {
+    margin-top: 10px;
+}
+.margintopoverzicht{
+    margin-top: 50px;
+}
+
+main{
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.mainpicture img{
+    float: left;
+    margin-top: 100px;
+}
+
+.no_border td{
+    border: none;
+    margin-bottom: 100px;
+
+}
+
+.meer{
+    font-size:40px ;
+    margin-top: 20px;
+    float: left;
+    margin-right: 80px;
+}
+
+div.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+.footer{
+    position: absolute;
+    height: 12%;
+    width: 100%;
+    background-color: darkgrey;
+    color: white;
+    margin-bottom: 2px;
+    margin-top: 30px;
+}
+
+.maintableblz2 ,td ,tr, table{
+    border-style: none;
+}
+.maintableblz2{
+    float: left;
+}
+
+.table2{
+    border-style: none;
+    float: right;
+}
+
+.concertjan{
+    font-size:40px ;
+    margin-top: 60px;
+    margin-right: 80px;
+}
+.enmeer{
+    margin-top: 60px;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.margintopenmeer{
+    margin-top: 50px;
+}
+
+.sitelinks a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}

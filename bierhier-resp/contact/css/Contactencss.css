@@ -1,0 +1,138 @@
+body {
+    background-image: url("../img/Achtergrond Contact.jpg");
+}
+
+
+ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+    background-image: url("../img/pattern.jpg");
+ }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.line {
+    margin-left:40px;
+    width: 700px;
+    height: 470px;
+    border: 1px solid black;
+    position: relative;
+    padding: 25px;
+    float: left;
+
+}
+
+.Contact {
+    padding-left: 40px;
+}
+.leftp {
+    float: left;
+    width: 800px;
+    margin-left: 40px;
+    border: 0px solid #73AD21;
+    padding: 10px;
+
+}
+
+.footer {
+    color: white;
+    /*position:fixed;*/
+    bottom:0;
+    min-height: 8%;
+    width: 98%;
+    clear: both;
+    padding: 15px;
+    background-color: darkgrey;
+    float: left;
+}
+.footer p {
+    color: white;
+    /*position: fixed;*/
+    bottom: 0;
+    right: 0;
+    padding-right:30px;
+}
+
+.form {
+    float: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 400px;
+    bottom: 40px;
+
+}
+*@font-face {
+    font-family: "Arial";
+    src: url(https://www.fonts.com/font/monotype/arial?QueryFontType=Web&src=GoogleWebFonts) format("truetype");
+}
+
+body {
+    font-family: Arial, SansSerif, serif;
+    font-size: medium;
+}
+
+
+.personen {
+    width: 80%;
+    padding: 200px;
+
+}
+
+
+
+.abigail {
+    margin-left:80px;
+    width: 15%;
+    float: left;
+    margin-right: 40px;
+    left: 300px;
+    margin-top:400px;
+}
+.aaron {
+    width: 15%;
+    float: left;
+    margin-right: 40px;
+    margin-top:400px;
+}
+.maud {
+    width: 15%;
+    float: left;
+    margin-right: 40px;
+    margin-top:400px;
+}
+.damian {
+    width: 15%;
+    float: left;
+    margin-right: 40px;
+    margin-top:400px;
+}
+.joey {
+    width: 15%;
+    float: left;
+    margin-left: 20px;
+    margin-top:400px;
+}
+
+h2 {
+    text-align: left;
+}

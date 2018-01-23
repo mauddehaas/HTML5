@@ -1,0 +1,49 @@
+body {
+    background-image:url("Images/Achtergrond Recepten.jpg") ;
+    font-family: Arial;
+}
+nav{
+    background-color: #6FA8DC;
+    padding: 15px;
+}
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.nav ul li{
+    display: inline;
+}
+.footer {
+    position:absolute;
+    bottom:0;
+    min-height: 8%;
+    width: 98%;
+    clear: both;
+    padding: 15px;
+    background-color:grey;
+    float: left;
+}
+.mainpicture {
+    float: left;
+    width: 60%;
+}
+.mainpicture img{
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.mainpicture::after{
+    clear: both;
+}
+.clear::after{
+    clear: both;
+}
+.sitelinks a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}

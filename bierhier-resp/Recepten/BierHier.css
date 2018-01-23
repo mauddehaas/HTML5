@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Abel', SansSerif, serif;
+    font-size: medium;
+    min-height: 100%;
+    height: auto;
+    background-image: url("Images/Achtergrond Recepten.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:lightsteelblue;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto;
+}
+
+/* menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:cornflowerblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+/* eind menu */
+
+.mainpicture {
+    float: left;
+    width: 60%;
+}
+.mainpicture img{
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.mainpicture::after{
+    clear: both;
+}
+.clear::after{
+    clear: both;
+}
+.sitelinks a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: darkgrey;
+    color: white;
+    height: 160px;
+    padding-left: 30px;
+}
+
+
+.sitelinks a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.spacing-row {
+    margin-top: 10px;
+}

@@ -1,0 +1,85 @@
+/*ACHTERGROND/SCALE*/
+html{
+    height: 100%;
+    background-color: lightgray;
+    background-image: url("img/orangesparkle.jpg");
+    background-size: cover;
+}
+
+/*BODY - HEADER*/
+
+/*Header-toolbar Homepage mag op ander formaat. afgesproken op 30/10/2017 */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-image: url("img/orangesparkle-v2.jpg");
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/*BODY - POSITION*/
+body {
+    font-size: medium;
+    font-family: abel, SansSerif, serif;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 80px;
+}
+
+/*COLUMN*/
+#intro {
+    color: white; background-color: gray; }
+.col1 { width: 100%; max-width: 1280px; min-width: 320px; margin: 0 auto; clear: both; }
+
+.col2 { float: left; width: 30.8%; margin-right: 3.8%; }
+
+.col3 { margin-right: 0; }
+
+
+/*FOOTER*/
+footer {
+    color: white;
+    /*position:fixed;*/
+    bottom:0;
+    min-height: 8%;
+    width: 98%;
+    clear: both;
+    padding: 15px;
+    background-color: darkgrey;
+    float: left;
+}
+/*footer {*/
+    /*position: absolute;*/
+    /*width:100%;*/
+    /*height: 18%;*/
+    /*bottom: 0;*/
+    /*color: white;*/
+    /*background-color: darkgray;  }*/
+/*.col-1 { width: 97%; max-width: 1280px; min-width: 320px; margin: 0 auto; clear: both; }*/
+/*.col-2 { float: ; width: 8.8%; margin-right: 3.8%; }*/
+/*.col-3 { margin-right: 0; text-align: center}*/
+.col-1{float: left; width: 21%; position: relative; left: 20%; overflow: hidden;}
+.col-2{float: left; width: 21%; position: relative; left: 81%; overflow: hidden;}
+.col-3 {float: left; width: 21%; position: relative; left: 85%; overflow: hidden}
+.col-4 {float: left; width: 21%; position: relative; left: 89%; overflow: hidden;}
+
+

@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+h1 {
+    padding: 30px;
+}
+div.image1{
+    float: left;
+    width: 40%;
+
+}
+div.image2 {
+    float: right;
+    width: 40%;
+}
+.mainpicture {
+    float: right;
+}
+.article {
+    float: right;
+}
+.sitelinks a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
